@@ -1,9 +1,8 @@
 package APIVoll.med.controller;
 
-import APIVoll.med.domain.dto.DadosAtualizacaoMedico;
 import APIVoll.med.domain.dto.DadosAutenticacao;
 import APIVoll.med.domain.usuario.Usuario;
-import APIVoll.med.infra.security.DadosTokeJWT;
+import APIVoll.med.infra.security.DadosTokenJWT;
 import APIVoll.med.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +30,6 @@ public class AutenticacaoController {
         var authetication = manager.authenticate(autheticationToken);
 
         var tokeJWT = tokenService.gerarToken((Usuario) authetication.getPrincipal());
-        return ResponseEntity.ok(new DadosTokeJWT(tokeJWT));
+        return ResponseEntity.ok(new DadosTokenJWT(tokeJWT));
     }
 }
