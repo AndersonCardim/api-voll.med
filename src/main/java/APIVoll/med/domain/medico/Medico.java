@@ -1,9 +1,6 @@
-package APIVoll.med.domain.entities;
+package APIVoll.med.domain.medico;
 
-import APIVoll.med.domain.dto.DadosAtualizacaoMedico;
 import APIVoll.med.domain.endereco.Endereco;
-import APIVoll.med.domain.dto.DadosCadastroMedico;
-import APIVoll.med.domain.dto.Especialidade;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

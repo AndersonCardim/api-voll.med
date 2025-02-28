@@ -1,4 +1,4 @@
-package APIVoll.med.domain.dto;
+package APIVoll.med.domain.medico;
 
 public enum Especialidade {
     ORTOPEDIA,

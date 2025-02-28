@@ -1,11 +1,11 @@
 package APIVoll.med.controller;
 
-import APIVoll.med.domain.dto.DadosAtualizadoPaciente;
-import APIVoll.med.domain.dto.DadosCadastroPaciente;
-import APIVoll.med.domain.dto.DadosListagemPaciente;
-import APIVoll.med.domain.dto.*;
-import APIVoll.med.domain.entities.Paciente;
-import APIVoll.med.domain.repository.PacienteRepository;
+import APIVoll.med.domain.paciente.DadosAtualizadoPaciente;
+import APIVoll.med.domain.paciente.DadosCadastroPaciente;
+import APIVoll.med.domain.paciente.DadosDetalhamentoPaciente;
+import APIVoll.med.domain.paciente.DadosListagemPaciente;
+import APIVoll.med.domain.paciente.Paciente;
+import APIVoll.med.domain.paciente.PacienteRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

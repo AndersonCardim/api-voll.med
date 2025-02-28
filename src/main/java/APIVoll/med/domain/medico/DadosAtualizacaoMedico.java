@@ -1,4 +1,4 @@
-package APIVoll.med.domain.dto;
+package APIVoll.med.domain.medico;
 
 import APIVoll.med.domain.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;

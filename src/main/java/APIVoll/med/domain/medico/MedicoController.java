@@ -1,11 +1,5 @@
-package APIVoll.med.controller;
+package APIVoll.med.domain.medico;
 
-import APIVoll.med.domain.dto.DadosDetalhamentoMedico;
-import APIVoll.med.domain.entities.Medico;
-import APIVoll.med.domain.dto.DadosAtualizacaoMedico;
-import APIVoll.med.domain.dto.DadosCadastroMedico;
-import APIVoll.med.domain.dto.DadosListagemMedico;
-import APIVoll.med.domain.repository.MedicoRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,6 +1,4 @@
-package APIVoll.med.domain.dto;
-
-import APIVoll.med.domain.entities.Paciente;
+package APIVoll.med.domain.paciente;
 
 public record DadosListagemPaciente(Long id, String nome, String email, String cpf) {
 

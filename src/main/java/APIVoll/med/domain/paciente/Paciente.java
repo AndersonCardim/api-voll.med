@@ -1,7 +1,5 @@
-package APIVoll.med.domain.entities;
+package APIVoll.med.domain.paciente;
 
-import APIVoll.med.domain.dto.DadosAtualizadoPaciente;
-import APIVoll.med.domain.dto.DadosCadastroPaciente;
 import APIVoll.med.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,7 +8,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "paciente")
+@Table(name = "pacientes")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

@@ -1,6 +1,6 @@
 package APIVoll.med.controller;
 
-import APIVoll.med.domain.dto.DadosAutenticacao;
+import APIVoll.med.domain.usuario.DadosAutenticacao;
 import APIVoll.med.domain.usuario.Usuario;
 import APIVoll.med.infra.security.DadosTokenJWT;
 import APIVoll.med.infra.security.TokenService;

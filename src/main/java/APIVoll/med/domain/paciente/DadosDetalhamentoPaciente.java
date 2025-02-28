@@ -1,8 +1,6 @@
-package APIVoll.med.domain.dto;
+package APIVoll.med.domain.paciente;
 
-import APIVoll.med.domain.endereco.DadosEndereco;
 import APIVoll.med.domain.endereco.Endereco;
-import APIVoll.med.domain.entities.Paciente;
 
 public record DadosDetalhamentoPaciente(String nome, String email, String cpf, String telefone, Endereco endereco) {
     public DadosDetalhamentoPaciente(Paciente paciente) {
